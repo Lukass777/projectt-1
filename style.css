@@ -1,0 +1,123 @@
+body
+{
+  background-image: url("hexellence.png");
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #111;
+}
+
+h1
+{
+  background-color: lightskyblue;
+  font-family: 'Lobster', cursive;
+	font-size: 36px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+        border-radius: 5px;
+
+}
+
+/*.numer1 { background: #354f5d; width: 750px; height: 600px; text-align: center; }
+*/
+.navbar a {
+    color: #fff;
+}
+
+.navbar2 
+{
+  background-image: url("projektyRys.jpg");  
+}
+.center {
+text-align: left;
+}
+/*.vcenter {
+padding-top: 30px;
+padding-bottom: 30px;
+}*/
+.error
+            {
+                color:red;
+                margin-top: 10px;
+                marginbottom: 10px;
+            }
+#frm{
+    border: solid gray 1px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 50px auto;
+    background: linear-gradient(lightcoral, yellow);
+    padding: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+p
+{
+	text-align: left;
+        
+}
+
+.container
+{
+	width: 200px;
+	padding: 40px 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type=submit]
+{
+	width: 300px;
+	background-color: #36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+{
+	background-color: #37b93d;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: 5px;
+	width: 100%;
+}
